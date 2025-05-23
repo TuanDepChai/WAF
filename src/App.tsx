@@ -1,12 +1,16 @@
-
+import { BrowserRouter, Route } from 'react-router-dom'
+import { Routes } from 'react-router-dom'
 import './App.css'
+import Login from './components/Login'
 
 function App() {
 
   return (
-    <div className='bg-red-500'>
-      <h1>Hello World</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/login' element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
