@@ -12,10 +12,10 @@ const Home = () => {
     return (
         <Box minH="100vh">
             {/* Hero Section */}
-            <Container maxW="container.xl" py={20}>
+            <Container fluid maxW="container.xl" py={20}>
                 <Stack gap={8} align="center" textAlign="center">
                     <Heading size="2xl">
-                        Welcome to Our Platform
+                        Protect Your Web Applications with F-Guard WAF
                     </Heading>
                     <Text fontSize="xl" color="gray.600" maxW="2xl">
                         A powerful solution for managing your projects, tasks, and team collaboration.
